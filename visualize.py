@@ -217,7 +217,7 @@ theta1_slider_ax = plt.axes([0.15, 0.10, 0.65, 0.03])
 L0_slider_ax = plt.axes([0.15, 0.14, 0.65, 0.03])
 
 theta1_slider = Slider(theta1_slider_ax, 'Theta1', 0, 360, valinit=0)
-theta2_slider = Slider(theta2_slider_ax, 'Theta2', 0, 360, valinit=180)
+theta2_slider = Slider(theta2_slider_ax, 'Theta2', 0, 360, valinit=0)
 theta3_slider = Slider(theta3_slider_ax, 'Theta3', 0, 360, valinit=0)
 L0_slider = Slider(L0_slider_ax, 'L0', 1, L0_max, valinit=1)
 
